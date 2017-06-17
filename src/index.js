@@ -9,7 +9,7 @@ import Login from './Login';
 
 ReactDOM.render(
   <Router>
-    <div className="height_100">
+    <div>
     <Switch>
       <Route exact path="/" component={Login}/>
       <Route exact path="/login" component={Login}/>
